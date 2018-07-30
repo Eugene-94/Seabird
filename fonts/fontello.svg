@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="align-justify" unicode="&#xe800;" d="M1000 100v-71q0-15-11-25t-25-11h-928q-15 0-25 11t-11 25v71q0 15 11 25t25 11h928q15 0 25-11t11-25z m0 214v-71q0-15-11-25t-25-11h-928q-15 0-25 11t-11 25v71q0 15 11 25t25 11h928q15 0 25-11t11-25z m0 215v-72q0-14-11-25t-25-11h-928q-15 0-25 11t-11 25v72q0 14 11 25t25 10h928q15 0 25-10t11-25z m0 214v-72q0-14-11-25t-25-10h-928q-15 0-25 10t-11 25v72q0 14 11 25t25 11h928q15 0 25-11t11-25z" horiz-adv-x="1000" />
+
+<glyph glyph-name="camera" unicode="&#xe801;" d="M500 450q64 0 107-44t43-106-44-106-106-44-106 44-44 106 44 106 106 44z m400 150q42 0 71-29t29-71l0-450q0-40-29-70t-71-30l-800 0q-40 0-70 30t-30 70l0 450q0 42 30 71t70 29l120 0q28 0 40 30l30 92q10 28 40 28l340 0q30 0 40-28l30-92q12-30 40-30l120 0z m-400-550q104 0 177 73t73 177-73 177-177 73-177-73-73-177 73-177 177-73z m366 380q14 0 24 11t10 25-10 24-24 10q-36 0-36-34 0-16 11-26t25-10z" horiz-adv-x="1000" />
+
+<glyph glyph-name="video" unicode="&#xe802;" d="M980 600l-100 0 0-100 100 0 0-100-100 0 0-100 100 0 0-100-100 0 0-100 100 0 0-60q0-16-12-28t-28-12l-900 0q-16 0-28 12t-12 28l0 60 100 0 0 100-100 0 0 100 100 0 0 100-100 0 0 100 100 0 0 100-100 0 0 60q0 18 12 29t28 11l900 0q16 0 28-11t12-29l0-60z m-600-400l250 150-250 150 0-300z" horiz-adv-x="980" />
+
+<glyph glyph-name="monitor" unicode="&#xe803;" d="M900 790q42 0 71-30t29-70l0-550q0-42-29-77t-69-43l-218-44 86-38q50-28-20-28l-500 0q-98 0 32 52l36 14-220 44q-40 8-69 43t-29 77l0 550q0 40 30 70t70 30l800 0z m0-646l0 556-800 0 0-556 800 0z" horiz-adv-x="1000" />
+
+<glyph glyph-name="brush" unicode="&#xe804;" d="M118 170q38 34 85 29t87-45q42-40 48-87t-30-83q-86-84-228-102-84-12-80 14 0 4 6 10 52 60 64 145t48 119z m840 646q26-26-148-248t-292-338q-38-38-124-104-8-6-16 8-18 34-48 64-32 32-66 48-16 6-8 16 64 84 104 122 118 116 344 287t254 145z" horiz-adv-x="962" />
+</font>
+</defs>
+</svg>

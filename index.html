@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <title>Seabird</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+	<body>
+		<div class="page-wrapper">
+
+      <!-- header -->
+			<header>
+				<div class="logo">
+					<a href="#">Seabird.</a>
+				</div>
+				<input type="checkbox" id="menu-checkbox" />
+
+        <!-- navigation menu -->
+				<nav role="navigation">
+					<label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
+
+          <!-- navigation items -->
+          <ul class="main-menu">
+						<li><a href="#">home</a></li>
+						<li><a href="#">portfolio</a></li>
+						<li><a href="#">blog</a></li>
+						<li><a href="#">pages</a></li>
+						<li><a href="#">features</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+      <!-- main section -->
+      <main>
+  			<section class="promo">
+  				<h1>We design & build responsive themes</h1>
+  				<p>Maecenas sed diam varius blandit magna. Duis mollis commodo luctus.</p>
+
+          <div class="slider-wrapper">
+            <ul class="slider">
+              <li class="slide current"><img src="images/slide.png" width="686" height="380"></li>
+              <li class="slide"><img src="images/slide.png" width="686" height="380"></li>
+              <li class="slide"><img src="images/slide.png" width="686" height="380"></li>
+              <li class="slide"><img src="images/slide.png" width="686" height="380"></li>
+            </ul>
+            <button class="controls" id="previous"></button>
+            <button class="controls" id="next"></button>
+          </div>
+        </section>
+
+        <section class="services">
+          <h2>Interface design is important for us</h2>
+          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus
+            varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+          <ul class="services-list">
+            <li class="service-item">
+              <a href="#"></a>
+              <h4>Interface design</h4>
+            </li>
+            <li class="service-item">
+              <a href="#"></a>
+              <h4>Motion graphic</h4>
+            </li>
+            <li class="service-item">
+              <a href="#"></a>
+              <h4>Photography</h4>
+            </li>
+            <li class="service-item">
+              <a href="#"></a>
+              <h4>Illustration</h4>
+            </li>
+          </ul>
+        </section>
+        <section class="portfolio">
+          <h3>our awesome works</h3>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img src="images/portfolio.png" width="302" height="220">
+              <a href="#">
+                <h4>Nobis business card</h4>
+              </a>
+              <p class="category">Business card, graphic</p>
+              <p class="description">Sed posuere consectetur est at lobortis.
+                Porta sagittis lacus vel augue laoreet rutrum.</p>
+            </li>
+            <li class="portfolio-item">
+              <img src="images/portfolio.png" width="302" height="220">
+              <a href="#">
+                <h4>New fun project</h4>
+              </a>
+              <p class="category">Web design, application</p>
+              <p class="description">Nulla vitae elit libero, a pharetra augue.
+                Donec sed odio dui. Vestibulum id ligula porta felis.</p>
+            </li>
+            <li class="portfolio-item">
+              <img src="images/portfolio.png" width="302" height="220">
+              <a href="#">
+                <h4>Passionaries Branding Cover</h4>
+              </a>
+              <p class="category">Branding, Graphic Design</p>
+              <p class="description">Curabitur blandit tempus porttitor.
+                Donec id elit non mi porta gravida at eget metus.</p>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <ul class="footer-columns">
+          <li>
+            <h3>Get in touch</h3>
+            <p>Fusce dapibus, tellus commodo,
+              tortor mauris condimentum utellus fermentum, porta sem malesuada magna.</p>
+            <div class="contacts">
+              <p>Moonshine Street No: 14/05 Light City, Jupiter</p>
+              <p>0247 541 65 87</p>
+              <p>support@longwave.com</p>
+            </div>
+          </li>
+          <li>
+            <h3>About us</h3>
+            <p>Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.
+              Donec ullamcorper metus auctor fringilla. Nullam quis risus.</p>
+            <p>Vestibulum id ligula porta  euismod semper. Maecenas faucibus mollis.
+              Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+          </li>
+          <li>
+            <h3>Popular post</h3>
+            <a href="#">Vivamus sagittis lacus vel augue laoreet
+              rutrum dolor auctor tellus commodo. condimentum </a>
+            <time> 14 Nov, 2012 </time>
+
+            <a href="#">Scelerisque nisl consectetur +et.</a>
+            <time> 22 May, 2012 </time>
+
+            <a href="#">Pellentesque ornare sem lacinia quam venenatis vestibulum, fusce dapibus.</a>
+            <time> 15 July, 2012 </time>
+          </li>
+        </ul>
+        <section class="copyright">
+          @ 2013 Seabird. All Rights Reserved.
+        </section>
+      </footer>
+		</div>
+
+    <script>
+      var slides = document.querySelectorAll('.slide');
+      var currentSlide = 0;
+      var slideInterval = setInterval(nextSlide,10000);
+
+      var next = document.getElementById('next');
+      var previous = document.getElementById('previous');
+
+      next.onclick = function() {
+        nextSlide();
+      }
+
+      previous.onclick = function() {
+        previousSlide();
+      }
+
+      function nextSlide() {
+      	goToSlide(currentSlide+1);
+      }
+
+      function previousSlide() {
+      	goToSlide(currentSlide-1);
+      }
+
+      function goToSlide(n) {
+      	slides[currentSlide].className = 'slide';
+      	currentSlide = (n+slides.length)%slides.length;
+      	slides[currentSlide].className = 'slide current';
+      }
+    </script>
+</body>
+</html>
